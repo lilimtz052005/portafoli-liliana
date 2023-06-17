@@ -1,0 +1,30 @@
+body{
+    background-color: blanchedalmond;}
+h1{ 
+    color: blueviolet;
+}
+#parrafo-rojo{
+    color: red;
+}
+#parrafo-green{
+    color: green;
+}
+#parrafo-cyan{
+    color: cyan;
+}
+.clase-cuadro{
+    color: brown;
+    background-color:aliceblue;
+}
+
+img{ 
+    width:300px;
+    height: 200px;;
+}
+
+#caja{
+    border: 1px solid black;
+    padding: 30px;
+    margin-left: 300px;
+}
+s

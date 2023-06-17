@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Lili Martinez">
+    <meta name="description" content="Portafolio de desarrollo web de Lili Martinez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Lili Martinez | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/R.cc8ae0387024a9f10270fd0c87ef99bd?rik=TtJyszhC%2bAnAnA&riu=http%3a%2f%2fcmm.nl%2fwp-content%2fuploads%2f2015%2f09%2fhtml-css.jpg&ehk=yc0BGfk13tfctScjuqoYLV0GyK%2fsZAov4kWGUUjXXxA%3d&risl=&pid=ImgRaw&r=0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos"> Sobre mis gustos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios"> Opiniones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="lilim.jpg" alt="Foto de Lili Martinez">
+        <h1>Hola, soy Lili Martinez</h1>
+        <!--<h2> Pensamientos, creacion e imaginacion.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://impactoseo.com/wp-content/uploads/2022/06/como-poner-banner-html-1.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Lili Martinez</h2>
+        <p class="seccion-texto">Hola soy Lili, actualmente estoy tomando clases con Tecnolochicas y me gusta mucho. Me gustaria estudiar una ingenieria y estudiar muchos cursos, tambien me gustaria aprender 3 idiomas :p.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo"> APRENDIZAJE DE MI </p>
+            <p>Soy una persona muy sociable y un poco enojona, odio la fruta llamada lichi y me gusta mucho dibujar cosas extrañas. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">SOBRE</span>
+              <span class="badge text-bg-primary">PENSAR</span>
+              <span class="badge text-bg-primary">IMAGINAR</span>
+              <span class="badge text-bg-primary">RELACIONAR</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo"> PENSAMIENTO</p>
+            <p>Pensar e imagianr te ayudan a diseñar y crear cosas fantasticas</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">IMAGINA</span>
+              <span class="badge text-bg-primary">CONSTRUYE</span>
+              <span class="badge text-bg-primary">PIENSA</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo"> IMAGINACION</p>
+            <p>Crear y imaginar a la vez te hacen crear cosas por geniales e increibles.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">CREAR</span>
+              <span class="badge text-bg-primary">DISEÑAR</span>
+              <span class="badge text-bg-primary">MODIFICAR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis gustos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos gustos que he tenido recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/R.cac53d558149926da91c3a862cf5e10f?rik=%2fXkJLvXhrKjKEA&pid=ImgRaw&r=0" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Gusto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/OIP.rTr7begaL7dDNOtMILLP2wHaEv?pid=ImgDet&rs=1" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Gusto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/R.0655e192d5c5b9d79c8b00749dcbaaf8?rik=h%2f5VwW4xDXfvow&pid=ImgRaw&r=0" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Gusto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/OIP.2lucjdBUbL1RYRQ7rZmk1AHaEr?pid=ImgDet&w=593&h=375&rs=1" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Gusto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/R.5198dad27b308591531b876240d81aeb?rik=eegUDwsjrlxrfQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-wJcomm9mz4Q%2fTZ7RlrH23CI%2fAAAAAAAAAIk%2fpin6hpnRwaQ%2fs1600%2fTeletubbies.jpg&ehk=OfWlLWajAGNEXaKjJ9tmpDzg%2fIghA1BJI0CsHLF99ys%3d&risl=&pid=ImgRaw&r=0" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Gusto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/OIP.-uv61875xPuIpaYXBq1_ggHaE8?pid=ImgDet&rs=1" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Gusto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más gustos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro"> GUSTOS</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://nancynsalazar.medium.com/gu%C3%ADa-r%C3%A1pida-para-construir-tu-portafolio-como-programador-a-9f02daeabb12" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              gustos distintos
+            </li>
+          </a>
+          <a href="https://nancynsalazar.medium.com/c%C3%B3mo-ser-un-a-mejor-programador-a-749c1bf98990" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              imaginacion al limite
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              creacion de cosas fantasticas
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             pensamientos con imaginacion 
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              crear y modificar
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más gustos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estas son las opinioneas sobre mi.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://th.bing.com/th/id/R.a38e188d4e09cae890e5994bdd22228d?rik=Yx7GL43M3Kjmvw&pid=ImgRaw&r=0" alt="Foto de Gino">
+              <p class="testimonio-texto"> Es una persona con mucha actitud y buena energia.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Hoseok</p>
+                <p class="cargo"> compositor y rapero.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://th.bing.com/th/id/R.97aa83669622387c6c231acf25263cac?rik=Ebjn6G6%2bm7vFkw&pid=ImgRaw&r=0" alt="Foto de Nora">
+              <p class="testimonio-texto"> Lili tiene una imaginacion muy grande y puede crear cosas fantasticas.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jimin</p>
+                <p class="cargo"> Musico critico.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://th.bing.com/th/id/OIP.4Inlajljdn_sPN-b7b2dKgHaNK?pid=ImgDet&rs=1" alt="Foto de Leonardo">
+              <p class="testimonio-texto"> Lili es una persona ingeniosa, tambien ella es muy simpatica.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jungkook</p>
+                <p class="cargo">Director de baile.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Se Feliz!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Crea y dejate fluir, cambia la forma de pensar del mundo y se feliz.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center"> Disfruta y crea todos los dias.<br> hay que ver el mundo de otra forma.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Lili Martinez (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
